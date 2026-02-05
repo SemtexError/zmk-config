@@ -9,6 +9,15 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        semi {
+            bindings = <&kt SEMICOLON>;
+            key-positions = <47 48>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
