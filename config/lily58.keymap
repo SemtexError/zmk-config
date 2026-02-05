@@ -30,10 +30,10 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6                         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp MINUS      &kp EQUAL
-&kp TAB         &kp Q         &kp W         &kp E         &kp R         &kp T                                &kp Y         &kp U         &kp I         &kp O         &kp P          &kp NON_US_BACKSLASH
-&kp LEFT_SHIFT  &mt LGUI A    &mt LALT S    &mt LCTRL D   &mt LSHIFT F  &kp G                                &kp H         &mt RSHIFT J  &mt RCTRL K   &mt RALT L    &mt RGUI SEMI  &kp SINGLE_QUOTE
-&kp LCTRL       &kp Z         &kp X         &kp C         &kp V         &kp B         &kp LBKT     &kp RBKT  &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH       &kp GRAVE
+&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6                         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp MINUS  &kp EQUAL
+&kp TAB         &kp Q         &kp W         &kp E         &kp R         &kp T                                &kp Y         &kp U         &kp I         &kp O         &kp P      &kp NON_US_BACKSLASH
+&kp LEFT_SHIFT  &kt A         &kt S         &kt D         &kt F         &kp G                                &kp H         &kt J         &kt K         &kt K         &kt SEMI   &kp SINGLE_QUOTE
+&kp LCTRL       &kp Z         &kp X         &kp C         &kp V         &kp B         &kp LBKT     &kp RBKT  &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH   &kp GRAVE
                                             &mo 1         &kp LEFT_ALT  &kp LEFT_WIN  &kp SPACE    &kp RET   &kp ESC       &kp BSPC      &mo 2
             >;
         };
