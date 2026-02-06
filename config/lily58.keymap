@@ -1,17 +1,9 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/ext_power.h>
 
 / {
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        combined_layer {
-            // Pressing layer 1 and 2 will move to layer 3
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -74,6 +66,15 @@
 &trans  &trans  &trans  &trans  &trans  &out OUT_BLE  &trans    &trans  &trans  &trans        &trans  &trans  &trans  &trans
                         &trans  &trans  &trans        &trans    &trans  &trans  &trans        &trans
             >;
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        combined_layer {
+            if-layers = <1 2>;
+            then-layer = <3>;
         };
     };
 };
